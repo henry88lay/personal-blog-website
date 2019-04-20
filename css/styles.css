@@ -1,0 +1,13 @@
+/* ======= General ======= */
+
+body {
+    background-color: lightblue;
+    font-family: "acme";
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
