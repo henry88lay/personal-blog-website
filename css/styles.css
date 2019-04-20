@@ -1,8 +1,24 @@
 /* ======= General ======= */
 
+.container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  }
+
 body {
     background-color: lightblue;
-    font-family: "acme";
+    font-family: "Merriweather", serif;
 }
 
 header {
@@ -12,7 +28,9 @@ header {
     font-family: 'Merriweather', serif;
 }
 
-
+footer {
+    background-color: lightblue;
+}
 
 /* ======= Social Media Icons ======= */
 /* Style all font awesome icons */
@@ -30,10 +48,12 @@ header {
     }
 
   /* Set a specific color for each brand */
+
   /* Github */
     .fa-github {
     color: white;
     }
+
   /* Instagram */
     .fa-instagram {
     color: white;
@@ -48,3 +68,5 @@ header {
     .fa-twitter {
     color: white;
     }
+
+/* ======= Media queries ======= */
