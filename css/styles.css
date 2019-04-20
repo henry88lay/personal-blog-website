@@ -22,7 +22,9 @@ body {
 }
 
 header {
-    background-color: white;
+    background: url('img/cover-photo.jpg') no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
     text-align: center;
     padding: 20px;
     font-family: 'Merriweather', serif;
