@@ -6,12 +6,19 @@
 /* ======= General ======= */
 
 header {
-    background-image: url("img/CoverPhoto.jpg") no-repeat top center;
+    text-align: center;
     background-size: cover;
     overflow: hidden;
-    text-align: center;
     padding-top: 60px;
 }
+
+.gradient {
+    background-image:
+      radial-gradient(
+        yellow,
+        #f06d06
+      );
+  }
 
 header .profile-image {
     margin-top: 50px;
@@ -26,8 +33,10 @@ header .profile-image {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    padding: 20px 40px 40px;
+    margin-top: 20px;
     float: left;
-    max-width: 450px;
+    max-width: 600px;
     content: "";
     display: table;
     clear: both;
@@ -38,11 +47,8 @@ header .profile-image {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
-  /* Add some padding inside the card container */
-  .container {
-    padding: 5px 16px;
-  }
 
+  
 body {
     background-color: lightblue;
     font-family: "Merriweather", serif;
