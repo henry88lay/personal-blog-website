@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+b {
+    font-weight: bold;
+}
+
 /* ======= General ======= */
 
 header {
@@ -144,7 +148,13 @@ footer {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    .flex {
+        display: -ms-flexbox;      /* TWEENER - IE 10 */
+        display: flex; 
+        width: 100%;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
