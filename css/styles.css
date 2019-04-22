@@ -6,12 +6,20 @@
 /* ======= General ======= */
 
 header {
-    background: url('img/CoverPhoto.jpg') no-repeat top center;
+    background-image: url("img/CoverPhoto.jpg") no-repeat top center;
     background-size: cover;
     overflow: hidden;
     text-align: center;
-    padding: 20px;
-    font-family: 'Merriweather', serif;
+    padding-top: 60px;
+}
+
+header .profile-image {
+    margin-top: 50px;
+    width: 125px;
+    height: 125px;
+    border-radius: 60%;
+    border: 2px solid black;
+    transition: all .5s;
 }
 
 .card {
@@ -19,7 +27,7 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     float: left;
-    max-width: 400px;
+    max-width: 450px;
     content: "";
     display: table;
     clear: both;
@@ -112,3 +120,34 @@ footer {
     }
 
 /* ======= Media queries ======= */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .flex {
+        display: -ms-flexbox;      /* TWEENER - IE 10 */
+        display: flex; 
+        max-width: 1200px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
