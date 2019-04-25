@@ -34,6 +34,7 @@ header .profile-image {
     transition: all .5s;
 }
 
+
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -72,11 +73,14 @@ footer {
     background-color: lightblue;
 }
 
+/* ======= Resume of Henry Lay Section ======= */
+
+
 /* ======= The Navigation Bar ======= */
 /* The navigation bar */
 .nav-bar {
     overflow: hidden;
-    background-color: transparent;
+    background-color: lightblue;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
